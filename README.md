@@ -33,43 +33,48 @@ It covers data cleaning, exploratory data analysis (EDA), and interactive visual
 15. **Optional Folium map** – if vehicle location coordinates available, show markers on a map and save as `ev_map.html`.
 
 ## 🛠 Getting Started
+🧭 Steps to Run the Project
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-Open the notebook:
 
-bash
-Copy code
+git clone https://github.com/vinod8930/Electric-vehicle-population.git
+cd Electric-vehicle-population
+
+
+2. Open the Jupyter Notebook:
+
 electric_vehicle_population_analysis.ipynb
-Ensure you have the required libraries installed. You can install via:
 
-bash
-Copy code
+
+3. Install the required libraries:
+
 pip install pandas numpy matplotlib seaborn plotly folium
-Run the notebook cell by cell and inspect the visual output.
+
+
+4. Run the notebook cell by cell and inspect the visual output.
 
 📊 What You Will Learn
-How to handle large datasets (260k+ rows) efficiently
 
-Techniques for cleaning real-world data (missing values, invalid entries)
+•How to handle large datasets (260k+ rows) efficiently
 
-How to compute and interpret correlations in numeric data
+•Techniques for cleaning real-world data (missing values, invalid entries)
 
-How to use static and interactive visualizations to derive insights
+•How to compute and interpret correlations in numeric data
 
-How to map geospatial data (if available) using Folium
+•How to use static and interactive visualizations to derive insights
 
-How to sample and visualize subsets of data to maintain performance
+•How to map geospatial data (if available) using Folium
+
+•How to sample and visualize subsets of data to maintain performance
 
 🔍 Insights & Highlights
-There is a strong negative correlation between Model Year and Electric Range (i.e., older model years often have higher range)
+•There is a strong negative correlation between Model Year and Electric Range (i.e., older model years often have higher range)
 
-The Base MSRP has a wide distribution and is better visualized on a log scale
+•The Base MSRP has a wide distribution and is better visualized on a log scale
 
-A few cities dominate the EV population, revealing geographic clustering
+•A few cities dominate the EV population, revealing geographic clustering
 
-Certain electric utilities serve a disproportionate share of EVs
+•Certain electric utilities serve a disproportionate share of EVs
 
 (These are example insights — you should interpret your actual results from the notebook.)
 
